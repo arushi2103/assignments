@@ -1,7 +1,6 @@
 function showName() {
    var name=prompt("enter your name ");
-   data= document.getElementById('uname');
-    data.innerHTML= name.value;
+   document.getElementById('uname').innerHTML = name;
 }
 
 function calculateNum(num_1, num_2, calc_type) {
